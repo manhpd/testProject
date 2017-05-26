@@ -1,0 +1,22 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "hello world",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "manhpd",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manhpd/testProject.git"
+  },
+  "keywords": [
+    "hello"
+  ],
+  "bugs": {
+    "url": "https://github.com/manhpd/testProject/issues"
+  },
+  "homepage": "https://github.com/manhpd/testProject#readme"
+}
