@@ -21,7 +21,9 @@
   },
   "homepage": "https://github.com/manhpd/testProject#readme",
   "devDependencies": {
-    "babel-preset-latest": "^6.24.1"
+    "babel-loader": "^7.0.0",
+    "babel-preset-latest": "^6.24.1",
+    "webpack": "^2.6.1"
   },
   "dependencies": {
     "babel-cli": "^6.24.1",
