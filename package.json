@@ -4,7 +4,8 @@
   "description": "hello world",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prestart": "babel-node buildScripts/startMessage.js",
+    "start": "babel-node buildScripts/srcServer.js"
   },
   "author": "manhpd",
   "license": "ISC",
@@ -18,5 +19,20 @@
   "bugs": {
     "url": "https://github.com/manhpd/testProject/issues"
   },
-  "homepage": "https://github.com/manhpd/testProject#readme"
+  "homepage": "https://github.com/manhpd/testProject#readme",
+  "devDependencies": {
+    "babel-preset-latest": "^6.24.1"
+  },
+  "dependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
+    "chalk": "^1.1.3",
+    "express": "^4.15.3",
+    "localtunnel": "^1.8.2",
+    "open": "^0.0.5",
+    "path": "^0.12.7",
+    "script": "^0.1.4",
+    "nsp": "^2.6.3",
+    "scripts": "^0.1.0"
+  }
 }
